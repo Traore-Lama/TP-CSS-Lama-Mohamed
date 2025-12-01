@@ -8,10 +8,12 @@ body {
 
 
 .menu {
+    padding-top: 20px;
     background-color: #6fa79a;
-    padding: 20px 0;
+    color: white;
+    height: 40px;
     text-align: center;
-    height: 50px;
+    word-spacing: 10px;
 }
 
 .menu a {
