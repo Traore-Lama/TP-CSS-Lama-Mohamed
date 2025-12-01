@@ -57,3 +57,9 @@ img
     width: 300px;
     height: 350px;
 }
+
+a
+{
+    padding-left: 1350px;
+    color: darkcyan;
+}
