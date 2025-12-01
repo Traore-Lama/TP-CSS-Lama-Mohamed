@@ -1,0 +1,64 @@
+#div1
+{
+    padding-top: 20px;
+    background-color: darkcyan;
+    color: white;
+    height: 40px;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+#div2
+{
+    background-color: darkslategrey;
+    padding-top: 80px;
+    display: flex;
+    gap: 20px;
+}
+
+#div3
+{
+    position: absolute;
+    padding-top: 150px;
+    color: white;
+}
+
+
+p
+{
+    display: inline;
+}
+
+img
+{
+    padding-left: 1070px;
+    width: 400px;
+    height: 500px;
+}
+
+h1
+{
+    padding-left: 20px;
+    color: white;
+}
+
+a
+{
+    padding-left: 1350px;
+    color: darkcyan;
+}
+
+#long
+{
+    width: 50px;
+}
+
+.form-ligne{
+    display: flex;
+    justify-content: flex-end; /* déplace les champs vers la droite */
+    gap: 15px; /* espace entre les deux champs */
+}
+
+.form-ligne input{
+    width: 200px; /* largeur des champs comme sur ton image */
+}
