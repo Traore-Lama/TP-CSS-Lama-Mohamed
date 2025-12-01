@@ -1,0 +1,100 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0d4d46;
+    color: white;
+}
+
+
+.menu {
+    background-color: #6fa79a;
+    padding: 20px 0;
+    text-align: center;
+    height: 52px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
+.contenu-apropos {
+    min-height: calc(100vh - 52px);
+    background-color: #6fa79a;
+    padding: 80px 10% 60px;
+}
+
+
+.contenu-apropos h1 {
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    color: white;
+}
+
+
+.bloc-photo-texte {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+
+.photo-container {
+    width: 2000px;
+}
+
+.photo-container img {
+    width: 100%;
+    max-width: 1000px;
+    height: 600px;
+    display: block;
+}
+
+
+.texte-container {
+    width: 1000px;
+}
+
+.texte-container p {
+    font-size: 25px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+
+.bouton-service {
+    margin-top: 100px;
+}
+
+.bouton-service a {
+    background-color: white;
+    color: #0d4d46;
+    padding: 30px 60px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+
+
+.lien-retour {
+    text-align: right;
+}
+
+.lien-retour a {
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+}

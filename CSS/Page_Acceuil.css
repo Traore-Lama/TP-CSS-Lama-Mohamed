@@ -1,0 +1,91 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0d4d46;
+    color: white;
+}
+
+
+.menu {
+    background-color: #6fa79a;
+    padding: 20px 0;
+    text-align: center;
+    height: 50px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
+.contenu {
+    height: calc(100vh - 52px);
+    background-image: url("../Images/background-accueil.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+.titre-box {
+    background-color: #515055;
+    padding: 20px 60px;
+    border-radius: 20px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 50px;
+    max-width: 750px;
+}
+
+.boutons {
+    display: flex;
+    gap: 15px;
+}
+
+.bouton {
+    height: 50px;
+    padding: 0 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+
+.bouton-blanc {
+    background-color: white;
+    color: #0d4d46;
+    border: none;
+}
+
+.bouton-transparent {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
