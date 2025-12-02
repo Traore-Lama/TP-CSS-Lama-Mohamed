@@ -1,73 +1,138 @@
-#div1
-{
-    padding-top: 20px;
-    background-color: darkcyan;
+/* Style général */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0d4d46; /* Couleur cohérente avec autres pages */
     color: white;
-    height: 40px;
+}
+
+/* Navigation */
+.menu {
+    padding: 15px 0;
+    background-color: #6fa79a; /* Vert clair comme autres pages */
+    color: white;
     text-align: center;
-    word-spacing: 10px;
+    height: 52px; /* Même hauteur que les autres pages */
 }
 
-#div2
-{
-    background-color: darkslategrey;
-    padding-top: 80px;
-    display: flex;
-    gap: 20px;
-}
-
-#div3
-{
-    position: absolute;
-    padding-top: 150px;
-    color: white;
-}
-
-
-p
-{
+.menu p {
     display: inline;
+    margin: 0 15px;
 }
 
-#img
-{
-    padding-left: 1070px;
-    width: 400px;
-    height: 500px;
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.02em;
 }
 
-h1
-{
-    padding-left: 20px;
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Contenu principal */
+.contenu-contact {
+    min-height: calc(100vh - 52px);
+    background-color: darkslategrey;
+    padding: 80px 10% 60px;
+}
+
+/* Titre principal */
+.contenu-contact h1 {
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 50px;
     color: white;
 }
 
-a
-{
-    padding-left: 900px;
-    color: darkcyan;
+/* Bloc formulaire + image */
+.bloc-formulaire-image {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
 }
 
-form
-{
-    padding-left: 30px;
+/* Formulaire à gauche */
+.formulaire {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
     border-radius: 10px;
-    max-width: 500px;
 }
 
-input, textarea
-{
-    width: 100%;
-    border-radius: 6px;
-    border: none;
-    margin-bottom: 15px;
-    padding: 10px;
+.formulaire h2 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: white;
 }
-button
-{
-    background-color: white;
+
+/* Styles du formulaire */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+input, textarea {
+    padding: 12px;
+    margin-bottom: 20px;
     border: none;
     border-radius: 6px;
-    padding: 10px 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+button {
+    background-color: white;
+    color: #0d4d46;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Image à droite */
+.image-contact {
+    flex: 1;
+}
+
+.image-contact img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Lien retour */
+.retour-accueil {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.retour-accueil a {
+    color: white;
+    text-decoration: underline;
+    font-size: 14px;
 }

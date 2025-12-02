@@ -1,42 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr"> <!-- Changé en français -->
 <head>
     <meta charset="UTF-8">
     <title>Cabinet d'Avocats - Contact</title>
     <link rel="stylesheet" href="../CSS/PagesContact.css">
 </head>
 <body>
-<div id="div1">
-    <p>Accueil</p>
-    <p>À Propos</p>
-    <a href="PageExpertises.html">Expertises</a>
-    <p>Honoraires</p>
-    <u><p>Contact</p></u>
-    <p>Actualites</p>
+
+<!-- Navigation -->
+<div class="menu">
+    <p><a href="accueil.html">Accueil</a></p>
+    <p><a href="apropos.html">À Propos</a></p>
+    <p><a href="expertises.html">Expertises</a></p>
+    <p><a href="honoraires.html">Horroraires</a></p> <!-- Faute comme PDF -->
+    <p><a href="contact.html">Contact</a></p>
+    <p><a href="actualites.html">Actionelles</a></p> <!-- Faute comme PDF -->
 </div>
 
-<div id="div2">
-    <h1>Nous Contacter <img src="../Images/image Contact.PNG"/></h1>
+<!-- Contenu principal -->
+<div class="contenu-contact">
+    <h1># Page Contact</h1> <!-- Comme PDF -->
 
-    <div id="div3">
-        <form>
-            <label>Prénom</label>
-            <input type="text" placeholder="Prénom" required>
-            <div id="input2">
-                <label>Nom de famille</label>
-                <input type="text" placeholder="Nom de famille" required>
+    <div class="bloc-formulaire-image">
+        <!-- Formulaire à gauche -->
+        <div class="formulaire">
+            <h2>## Nous contacter</h2> <!-- Comme PDF -->
+
+            <form>
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" placeholder="Prénom" required>
+
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" placeholder="Nom" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="E-mail" required>
+
+                <label for="objet">Objet</label>
+                <input type="text" id="objet" placeholder="Objet" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Message" rows="5" required></textarea>
+
+                <button type="submit">ENVOYER</button> <!-- En majuscules comme PDF -->
+            </form>
+
+            <!-- Lien retour -->
+            <div class="retour-accueil">
+                <a href="accueil.html">Retour Acceuil</a>
             </div>
-            <label>E-mail</label>
-            <input type="email" placeholder="E-mail" required>
-            <label>Objet</label>
-            <input type="text" placeholder="Objet" required>
-            <label>Message</label>
-            <textarea placeholder="Message" required></textarea>
-            <button type="submit">Envoyer</button>
-        </form>
+        </div>
 
-        <strong><a href="Page_Acceuil.html">Retour Acceuil</a></strong>
+        <!-- Image à droite -->
+        <div class="image-contact">
+            <img src="../Images/image Contact.PNG" alt="Image contact"/>
+        </div>
     </div>
 </div>
+
 </body>
 </html>
