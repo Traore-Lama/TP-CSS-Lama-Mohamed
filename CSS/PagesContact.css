@@ -1,18 +1,16 @@
-/* Style général */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #0d4d46; /* Couleur cohérente avec autres pages */
+    background-color: #0d4d46;
     color: white;
 }
 
-/* Navigation */
 .menu {
-    padding: 15px 0;
-    background-color: #6fa79a; /* Vert clair comme autres pages */
+    padding: 20px 0px 2px;
+    background-color: #6fa79a;
     color: white;
     text-align: center;
-    height: 52px; /* Même hauteur que les autres pages */
+    height: 52px;
 }
 
 .menu p {
@@ -31,14 +29,12 @@ body {
     text-decoration: underline;
 }
 
-/* Contenu principal */
 .contenu-contact {
     min-height: calc(100vh - 52px);
     background-color: darkslategrey;
     padding: 80px 10% 60px;
 }
 
-/* Titre principal */
 .contenu-contact h1 {
     font-size: 36px;
     font-weight: normal;
@@ -46,14 +42,12 @@ body {
     color: white;
 }
 
-/* Bloc formulaire + image */
 .bloc-formulaire-image {
     display: flex;
     gap: 60px;
     align-items: flex-start;
 }
 
-/* Formulaire à gauche */
 .formulaire {
     flex: 1;
     background-color: rgba(255, 255, 255, 0.1);
@@ -69,7 +63,6 @@ body {
     color: white;
 }
 
-/* Styles du formulaire */
 form {
     display: flex;
     flex-direction: column;
@@ -112,27 +105,22 @@ button:hover {
     background-color: #f0f0f0;
 }
 
-/* Image à droite */
 .image-contact {
     flex: 1;
 }
 
 .image-contact img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
+    width: 550px;
+    height: 680px;
     display: block;
-    border-radius: 10px;
 }
 
-/* Lien retour */
 .retour-accueil {
-    text-align: right;
+    text-align: center;
     margin-top: 30px;
 }
 
 .retour-accueil a {
     color: white;
-    text-decoration: underline;
     font-size: 14px;
 }
