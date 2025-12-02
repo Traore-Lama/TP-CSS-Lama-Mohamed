@@ -1,65 +1,96 @@
-html
-{
-    border: darkcyan thin solid;
-    border-collapse: collapse;
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-#div1
-{
-    padding-top: 20px;
+
+#menu {
+    padding: 15px 0;
     background-color: darkcyan;
     color: white;
-    height: 40px;
     text-align: center;
-    word-spacing: 10px;
 }
 
-#div2
-{
+#menu p {
+    display: inline;
+    margin: 0 15px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+
+#titre-section {
     background-color: darkslategrey;
     color: white;
-    padding-top: 20px;
-    padding-left: 15px;
-    height: 200px;
+    padding: 60px 20px;
 }
 
-#div3
-{
-    padding-top: 100px;
+#titre-section h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+
+#contenu {
+    padding: 50px 20px;
     display: flex;
-    gap: 20px;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-#div4 {
-    position: absolute;
-    padding-top: 50px;
-    padding-left: 350px;
-}
-
-h1
-{
-    margin-top: 0;
-}
-
-h2
-{
-    color: darkcyan;
-}
-
-p
-{
-    display: inline;
-}
-
-img
-{
-    padding-left: 20px;
+#contenu img {
     width: 300px;
     height: 350px;
+    object-fit: cover;
 }
 
-a
-{
-    padding-left: 1350px;
+
+#expertise-detail {
+    flex: 1;
+}
+
+#expertise-detail h2 {
     color: darkcyan;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+#expertise-detail ul {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+#expertise-detail li {
+    margin-bottom: 10px;
+}
+
+
+#retour {
+    text-align: right;
+    padding: 20px 40px;
+    background-color: #f5f5f5;
+}
+
+#retour a {
+    color: darkcyan;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#retour a:hover {
+    text-decoration: underline;
 }
